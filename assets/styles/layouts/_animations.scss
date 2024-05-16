@@ -110,7 +110,37 @@
 		}
 	  }  
   
+// Animation Heart
+@keyframes heart_filling {
+    0% {
+        opacity: (0.04);
+        transform: scale(0.2)
+    }
 
+    15% {
+        opacity: (.25);
+    }
+
+    80% {
+        opacity: (1);
+        transform: scale(1);
+    }
+
+    85% {
+        opacity: (1);
+        transform: scale(1.1);
+    }
+
+    95% {
+        opacity: (1);
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: (1);
+        transform: scale(1);
+    }
+}  
  
  
   
