@@ -40,7 +40,81 @@ main {
 }
  
 /** section Instructions **/
- 
+
+#instructions {
+	background: $white;
+	display: grid;
+	h2 {
+		margin: 2rem 2rem 2rem 2rem;
+	}
+	ul {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem;
+		margin: 3rem;
+		padding: 0;
+		li {
+			border-radius: 1.25rem;
+			background: $lightgrey;
+			position: relative;
+			box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+			padding: 1.5rem 1em 1.5em 2.5rem;
+
+				.solid_icon {
+					padding-right: 1rem;
+				}
+		}
+		span {
+			position: absolute;
+			padding: 0.2rem 0.5rem;
+			background-color: $color1;
+			border-radius: 50%;
+			color: $lightgrey;
+			transform: translateX(-50%);
+			left: 0rem;
+			bottom: 1.3rem;
+		}
+	} 
+} 
+@media only screen and (min-width: 768px) {
+	#instructions {
+		ul {
+			margin: 1rem 4rem 3rem 4rem;
+			gap: 2rem;
+		}
+	}
+}
+@media only screen and (min-width: 992px) {
+	#instructions {
+		h2 {
+			margin: 2rem 2rem 2rem 2rem;
+		}
+		ul {
+			margin: 1rem 4rem 3rem 4rem;
+		}
+	}
+}
+@media only screen and (min-width: 1025px) {
+	#instructions {
+		h2 {
+			margin: 2rem 2rem 2rem 5rem;
+		}
+		ul {
+			grid-template-columns: repeat(3, 1fr);
+			margin: 1rem 5rem 3rem 5rem;
+		}
+	}
+}
+@media only screen and (min-width: 1200px) {
+	#instructions {
+		h2 {
+			margin: 2rem 2rem 2rem 10rem;
+		}
+		ul {
+			margin: 1rem 10rem 3rem 10rem;
+		}
+	}
+}
 
 @import "../styles/layouts/buttons";  
 
