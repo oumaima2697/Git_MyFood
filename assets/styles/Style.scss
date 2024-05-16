@@ -40,7 +40,6 @@ main {
 }
  
 /** section Instructions **/
-
 #instructions {
 	background: $white;
 	display: grid;
@@ -119,6 +118,7 @@ main {
 @import "../styles/layouts/buttons";  
 
 // section restaurants
+
 #restaurants {
 	display: grid;
 	background: #F6F6F6;
@@ -231,5 +231,5 @@ main {
 		}
 	}
 } 
- 
+
 @import "../styles/layouts/footer"; 
