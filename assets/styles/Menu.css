@@ -429,6 +429,16 @@ main section .cards .cards_info {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+main section .cards .cards_info h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+main section .cards .cards_info p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 main section .cards .cards_price {
   position: absolute;
   color: #353535;

@@ -125,7 +125,13 @@ main {
 			} 
 
 			.cards_info { 
-				@include points;
+				@include points; 
+				h4 { 
+					@include points; 
+				}
+				p { 
+					@include points; 
+				} 
 		    }
 
 			.cards_price {
