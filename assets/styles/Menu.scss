@@ -1,0 +1,22 @@
+@import "./settings";  
+@import "../styles/layouts/animations"; 
+
+// Parametres globeaux 
+ 
+ 
+ 
+@import "../styles/layouts/header";  
+header {
+    .fa-arrow-left {
+	position: absolute;
+	transform: translateY(-50%);
+	left: 3rem;
+	top: 2.5rem; 
+} 
+}
+ 
+ 
+ 
+  
+@import "../styles/layouts/buttons";    
+@import "../styles/layouts/footer"; 

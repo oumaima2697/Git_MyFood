@@ -1,0 +1,35 @@
+@import "./settings";  
+@import "../styles/layouts/animations"; 
+ 
+// Parametres globeaux 
+ 
+main {
+    font-family: 'roboto', sans-serif;
+}  
+
+@import "../styles/layouts/header"; 
+
+// section location
+
+#location {
+    @include grid-center;
+	background-color: $grey;
+	padding: 1em;
+}
+
+.location_icon {
+	margin-right: 1.06em;
+}
+ 
+// section discover
+
+ 
+/** section Instructions **/
+ 
+
+@import "../styles/layouts/buttons";  
+
+// section restaurants
+
+ 
+@import "../styles/layouts/footer"; 

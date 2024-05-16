@@ -1,0 +1,15 @@
+footer {
+	display: grid;
+	background: $darkgrey;
+	padding: 1rem 0;
+	ul {
+		margin: 0;
+	}
+	a {
+		color: $white;
+		font-size: 1rem;
+		padding-right: 1rem;
+		font-family: Roboto;
+	}
+} 
+ 

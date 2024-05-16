@@ -1,0 +1,157 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap";
+* {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+h4 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes loader {
+  0% {
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+  }
+  100% {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+  }
+}
+@keyframes loader {
+  0% {
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+  }
+  100% {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+  }
+}
+.loader {
+  -webkit-animation: loader 2s ease-in;
+          animation: loader 2s ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  pointer-events: none;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  height: 0px;
+  width: 0px;
+  background-color: #FFF;
+}
+.loader::after {
+  content: " ";
+  border: 1rem solid #eaeaea;
+  border-top: 1rem solid #FF79DA;
+  border-bottom: 1rem solid #9356DC;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+  margin: auto;
+}
+
+main {
+  font-family: "roboto", sans-serif;
+}
+
+header {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header h1 {
+  margin: 1rem 0;
+}
+
+#location {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eaeaea;
+  padding: 1em;
+}
+
+.location_icon {
+  margin-right: 1.06em;
+}
+
+/** section Instructions **/
+footer {
+  display: grid;
+  background: #353535;
+  padding: 1rem 0;
+}
+footer ul {
+  margin: 0;
+}
+footer a {
+  color: #ffffff;
+  font-size: 1rem;
+  padding-right: 1rem;
+  font-family: Roboto;
+}/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap";
+
+$color1: #9356DC;  
+$color2: #FF79DA;
+$color3: #99E2D0;
+$darkgreen: #008766;
+$white: #ffffff;
+$black: #353535;
+$lightgrey: #F6F6F6;
+$grey: #eaeaea;  
+$darkgrey: #353535; 
+
+@mixin grid-center { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin points {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis; 
+}
+
+* {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Shrikhand', cursive;
+}
+
+h4 { 
+ 	@include points;
+}
+
+p { 
+	@include points;
+}
