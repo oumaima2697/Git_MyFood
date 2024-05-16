@@ -23,6 +23,21 @@ main {
  
 // section discover
 
+#discover {
+    @include grid-center;
+	background: $lightgrey;
+	justify-items: center;
+	text-align: center;
+	h2 {
+		font-size: 2.5rem;
+		font-weight: 800;
+		margin: 1rem 2rem 0 2rem;
+	}
+	p {
+		color: $darkgrey;
+		margin: 1rem 1rem 0 2rem;
+	}
+}
  
 /** section Instructions **/
  
