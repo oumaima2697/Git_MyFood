@@ -123,8 +123,7 @@ main {
 				 } 
 			} 
 
-			.cards_info { 
-				@include points;
+			.cards_info {  
 				h4 { 
 					@include points; 
 				}
