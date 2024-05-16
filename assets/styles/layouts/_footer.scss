@@ -12,4 +12,39 @@ footer {
 		font-family: Roboto;
 	}
 } 
- 
+
+@media only screen and (min-width: 768px) { 
+	footer {
+		display: flex;
+		justify-content: flex-end;
+		ul {
+			display: flex;
+		} 
+	}
+}
+
+#website_logo {
+	margin-bottom: 1rem; 
+		h5 {
+			font-size: 1rem;
+			padding-right: 2rem;
+		} 
+}
+@media only screen and (min-width: 768px) { 
+	#website_logo {
+        display: flex;
+        flex-direction: row-reverse;
+    } 
+}
+
+.logo {
+	font-family: Shrikhand; 
+	padding: 0 2.5rem;
+	color: $white;
+}
+.fa-utensils {
+	padding-right: 0.5rem;
+}
+.fa-handshake-angle {
+	padding-right: 0.5rem;
+}
