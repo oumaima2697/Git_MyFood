@@ -410,7 +410,7 @@ main section .cards {
   position: relative;
 }
 main section .cards:hover .cards_price {
-  right: 6rem;
+  right: 5rem;
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }
@@ -446,7 +446,7 @@ main section .cards .cards_price {
   font-family: Roboto;
   font-size: 1rem;
   font-weight: 700;
-  right: 1rem;
+  right: 0rem;
   bottom: 0rem;
 }
 main section .cards .cards_checkout {
