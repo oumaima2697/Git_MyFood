@@ -2,7 +2,34 @@
 @import "../styles/layouts/animations"; 
 
 // Parametres globeaux 
- 
+
+h2 {
+	font-family: 'Shrikhand', cursive;
+}
+h3 {
+	font-family: Roboto;
+}
+h4 {
+	font-family: Roboto;
+}
+p {
+	font-family: Roboto;
+    font-size: 0.9rem; 
+    margin: 0.5rem 1rem 1rem 1rem; 
+}
+
+h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	border-bottom: 0.3rem solid $color3;
+	line-height: 1.5rem;
+	width: 2.5rem;
+	margin: 1rem 0 0 1rem;
+}
+h4 {
+	font-size: 1.15rem;
+	margin: 1rem 0rem 0.5rem 1rem;
+}
  
  
 @import "../styles/layouts/header";  
