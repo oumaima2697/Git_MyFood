@@ -404,9 +404,6 @@ main section .cards {
   width: 100%;
   margin: 0 2rem;
   max-width: 634px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   position: relative;
 }
 main section .cards:hover .cards_price {
@@ -423,11 +420,6 @@ main section .cards:hover .cards_checkout {
 main section .cards:hover .cards_checkout i {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-}
-main section .cards .cards_info {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 main section .cards .cards_info h4 {
   overflow: hidden;
